@@ -1,20 +1,10 @@
-.row-inicio{
-    flex: 100%; 
-    flex-direction: column;
-    background-color: var(--color-gray-dark);
-    margin: 0; 
-}
-
 #inicio{
-    /* flex: 100%; 
-    flex-direction: column; */
     margin-top: 60px;
 }
 
 #inicio-left h2{
     color: white;
     text-align: center;
-    /* margin: 30px 0 0 0;    */
     font-size: 45px;
     border-bottom: none;
 }
@@ -27,7 +17,7 @@
     font-weight: normal;
 }
 
-#inicio-left .btn-contacto{
+#inicio-left .btn-primary{
     margin: 50px auto 0 auto;
 }
 
@@ -45,14 +35,8 @@
 
 @media only screen and (min-width: 992px){ /*en pantallas de 992px de ancho o más*/
     
-    /* .row-inicio{
-        display: flex;
-        flex-direction: row;
-    } */
-
     #inicio{
         display: flex;
-        /* flex-direction: row; */
         max-width: 1200px;
         margin: 0 auto;
     }
@@ -73,7 +57,7 @@
         margin: 0 0 0 20px;
     }
     
-    #inicio-left .btn-contacto{
+    #inicio-left .btn-primary{
         margin: 50px 0 0 20px;       
     }
 

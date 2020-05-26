@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Marcos</title>
+    <title>Portafolio - Marcos Tulisso</title>
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
-    <!-- <link rel="Shortcut Icon" href="./img/logo.png"> -->
+    <link rel="Shortcut Icon" href="img/logo.jpg">
 </head>
 <body> 
     <div class="container">
             
-        <div class="row-header">
+        <div class="row bg">
             <div id="header">
                 <div id="header-left">
                     <h1>MARCOS</h1>
@@ -18,23 +18,23 @@
 
                 <nav id="nav-right">
                     <ul>
-                        <li><a href="#inicio" class="active">Home</a></li>
+                        <li><a href="#inicio" class="active">Inicio</a></li>
                         <li><a href="#marcos">Sobre Mí</a></li>
                         <li><a href="#conocimientos">Conocimientos</a></li>
                         <li><a href="#proyectos">Mis Proyectos</a></li>
-                        <li><a href="#contactoForm">Contacto</a></li>
+                        <li><a href="#contacto-form">Contacto</a></li>
                         <li><a href="https://kikopalomares.com/blog/" target="_blank">Blog</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
 
-        <div class="row-inicio">
+        <div class="row">
             <div id="inicio"> 
                 <aside id="inicio-left">
                     <h2>Marcos Tulisso</h1>
                     <h4>Freelance Responsive Web Desinger</h4>
-                    <a href="#contactoForm-right" class="btn-contacto">Contáctame</a>
+                    <a href="#contacto-form-right" class="btn-primary">Contáctame</a>
                 </aside>
             
                 <section id="inicio-right">
@@ -43,7 +43,7 @@
             </div>
         </div>
 
-        <div class="row-marcos">
+        <div class="row bg-gray">
             <div id="marcos">
                 <section id="marcos-left">
                     <h2>Sobre Mí</h2>
@@ -53,13 +53,13 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nu pariatur excepteur sint occaecat.</p>
-                    <a href="#proyectos" class="btn">Proyectos</a>
-                    <a href="#" class="btn">Currículum</a>
+                    <a href="#proyectos" class="btn-outline">Proyectos</a>
+                    <a href="#" class="btn-outline">Currículum</a>
                 </section> 
             </div>  
         </div>
 
-        <div class="row-conocimientos">
+        <div class="row">
             <div id="conocimientos">
                 <div id="conocimientos-left">
                     <h2>Conocimientos</h2>
@@ -68,138 +68,160 @@
                 </div>
                 
                 <section id="conocimientos-right">
-                   
-                    <img src="/img/html-css.png" alt="Imágen HTML5 & CCS3" >
+                    <img src="/img/html-css3.png" alt="Imágen HTML5 & CCS3" >
                 </section>
             </div>
         </div>
 
-        <div class="row-proyectos">
+        <div class="row bg-gray">
             <section id="proyectos">
                     <h2>Primeras Experiencias</h2>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                         Velit laboriosam amet quasi eveniet dolorum debitis dolores deserunt iusto laudantium nemo fuga nisi reprehender.</p>
                     
-                    <a href="#" class="pro">
-                        <p id="p1">Abril 2020</p>
-                        <h4>Proyecto Responsive A</h4>
-                        <p id="p2">Responsive Web.</p>
-                        <p id="p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero sunt tempora architecto nobis consequuntur eos.</p>
-                    </a>
-                    <a href="#" class="pro">
-                        <p id="p1">Abril 2020</p>
-                        <h4>Proyecto Responsive B</h4>
-                        <p id="p2">Responsive Web.</p>
-                        <p id="p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero sunt tempora architecto nobis consequuntur eos.</p>
-                    </a>
-                    <a href="#" class="pro pro3">
-                        <p id="p1">Mayo 2020</p>
-                        <h4>Proyecto Responsive C</h4>
-                        <p id="p2">Responsive Web.</p>
-                        <p id="p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero sunt tempora architecto nobis consequuntur eos.</p>
-                    </a>
+                    <div class="caja">
+                        <a href="#" class="pro">
+                            <p id="p1">Abril 2020</p>
+                            <h4>Proyecto Responsive A</h4>
+                            <img src="/img/proyecto_responsive_web_design_by_kiko_palomares_1.png" alt="Proyecto Tienda" id="img-caja">
+                            <!-- <p id="p2">Responsive Web.</p> -->
+                            <!-- <p id="p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero sunt tempora architecto nobis consequuntur eos.</p> -->
+                        </a>
+                    </div>
+                    <div class="caja">
+                        <a href="#" class="pro">
+                            <p id="p1">Abril 2020</p>
+                            <h4>Proyecto Responsive B</h4>
+                            <img src="/img/proyecto_usando_flexbox_design_by_kiko_palomares.png" alt="Proyecto usando Flexbox" id="img-caja">
+                            <!-- <p id="p2">Responsive Web.</p> -->
+                            <!-- <p id="p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero sunt tempora architecto nobis consequuntur eos.</p> -->
+                        </a>
+                    </div>
+                    <div class="caja">
+                        <a href="#" class="pro">
+                            <p id="p1">Mayo 2020</p>
+                            <h4>Proyecto Responsive C</h4>
+                            <img src="/img/proyecto_usando_foat_design_by_kiko_palomares.png" alt="Proyecto usando Float" id="img-caja">
+                            <!-- <p id="p2">Responsive Web.</p> -->
+                            <!-- <p id="p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero sunt tempora architecto nobis consequuntur eos.</p> -->
+                        </a>
+                    </div>
+                    <div class="caja">
+                        <a href="#" class="pro pro4">
+                            <p id="p1">Mayo 2020</p>
+                            <h4>Proyecto Responsive D</h4>
+                            <img src="/img/proyecto_usando_grid_layout_y_flexbox_design_by_kiko_palomares.png" alt="Proyecto Galería" id="img-caja">
+                            <!-- <p id="p2">Responsive Web.</p> -->
+                            <!-- <p id="p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero sunt tempora architecto nobis consequuntur eos.</p> -->
+                        </a>
+                    </div>
             </section>
         </div>
 
-        <div class="row-contacto">
+        <div class="row">
             <section id="contacto">
                 <h2>¿Tienes algún proyecto en mente?</h2>
-                <a href="#contactoForm-right" class="btn-contacto">Hagámoslo!</a>
+                <a href="#contacto-form-right" class="btn-primary">Hagámoslo!</a>
             </section>
         </div>           
 
-        <div class="row-contactoForm">           
-            <div id="contactoForm">               
-                <section id="contactoForm-left">
+        <div class="row bg-gray">           
+            <div id="contacto-form">            
+                <section id="contacto-form-left">
+                    <h2>Contacto</h2>
                     <h4>Infomación de contacto</h4>
-                    <ul>
+                    <ul class="icon">
                         <li>
-                            <span>icon</span>
+                            <a href="#"><img src="/img/icon/ubicacion2.png" alt=""></a>
                             <span>Sunchales, Santa Fe, Argentina</span>
                         </li>
                         <li>
-                            <span>icon</span>
+                            <a href="#"><img src="/img/icon/email2.png" alt=""></a>
                             <span>marcostulisso@gmail.com</span>
                         </li>
                         <li>
-                            <span>icon</span>
-                            <span>+99887766123 <br> +12345678912</span>
+                            <a href="#"><img src="/img/icon/telefono.png" alt=""></a>
+                            <span>+99887766123</span> <br>
+                            <span class="tel-2">+12345678912</span>
                         </li>  
                         <li>
-                            <span>icon</span>
+                            <a href="#"><img src="/img/icon/internet2.png" alt=""></a>
                             <span>www.sunchales.com.ar</span>
                         </li>
                     </ul>
 
                     <h4>Sígueme</h4>
-                    <ul class="icon">
+                    <ul class="icon-social">
                         <li>
-                            <span>icon</span>
+                            <a href="#"><img src="/img/icon/social/facebook2.png" alt="Logo Facebook"></a>
                         </li>
                         <li>
-                            <span>icon</span>
+                            <a href="#"><img src="/img/icon/social/instagram2.png" alt="Logo Instagram"></a>
                         </li>
                         <li>
-                            <span>icon</span>
+                            <a href="#"><img src="/img/icon/social/twitter2.png" alt="Logo Twitter"></a>
                         </li>  
                         <li>
-                            <span>icon</span>
+                            <a href="#"><img src="/img/icon/social/youtube2.png" alt="Logo Youtube"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="/img/icon/social/pinterest2.png" alt="Logo Pinterest"></a>
                         </li>
                     </ul>
                 </section>
 
-                <section id="contactoForm-right">                    
+                <section id="contacto-form-right">                    
                     <h2>Contacto</h2>
                     <form method="post" action="#">
                         <label>NOMBRE</label><br>
-                        <input type="text" value="Escribe tu nombre" name="">
+                        <input type="text" placeholder="Escribe tu nombre" name="">
                         <br>
                         <label>NÚMERO DE TELÉFONO</label><br>
-                        <input type="text" value="Escribe tu número de teléfono" name="">
+                        <input type="tel" placeholder="Escribe tu número de teléfono" name="">
                         <br>
                         <label>EMAIL</label><br>
-                        <input type="email" value="Escribe tu email" name="">
+                        <input type="email" placeholder="Escribe tu email" name="">
                         <br>
                         <label>TU MENSAJE</label><br>
-                        <textarea name="" id="" cols="30" rows="10">Escribe tu mensaje aquí</textarea>
-                        <!-- <input type="text" value="Escribe tu mensaje aquí"> -->
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aquí"></textarea>
                         <br>
                         <br>
-                        <input type="submit" value="Enviar" class="btn-contacto">
+                        <input type="submit" value="Enviar" class="btn-primary">
                     </form> 
                 </section>
             </div>
         </div>
       
-        <div class="row-footer">
+        <div class="row bg">
             <footer id="footer">
-                <h1>Marcos</h1>
+                <!-- <h1>Marcos</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolor illum, provident quo, aliquam maxime quisquam nihil labore odit illo.</p>
-                <ul class="icon">
+                    Dolor illum, provident quo, aliquam maxime quisquam nihil labore odit illo.</p> -->
+
+                <ul class="icon-footer">
                     <li>
-                        <span>icon</span>
+                        <a href="#"><img src="/img/icon/social/facebook2.png" alt="Logo Facebook"></a>
                     </li>
                     <li>
-                        <span>icon</span>
+                        <a href="#"><img src="/img/icon/social/instagram2.png" alt="Logo Instagram"></a>
                     </li>
                     <li>
-                        <span>icon</span>
+                        <a href="#"><img src="/img/icon/social/twitter2.png" alt="Logo Twitter"></a>
                     </li>  
                     <li>
-                        <span>icon</span>
+                        <a href="#"><img src="/img/icon/social/youtube2.png" alt="Logo Youtube"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/img/icon/social/pinterest2.png" alt="Logo Pinterest"></a>
                     </li>
                 </ul>
-                <div>Copyright &copy; 2020 Marcos Tulisso.</div> 
+
+                <div><img src="/img/argentina.png" alt="Logo Argentina">Copyright &copy; 2020 Marcos Tulisso</div> 
             </footer> 
         </div>
        
-    </div> <!-- div container -->
-
-       
-        
-   
+    </div> <!-- div container -->      
 
     <!-- <script src="js/include-html.js"></script> -->
 </body>

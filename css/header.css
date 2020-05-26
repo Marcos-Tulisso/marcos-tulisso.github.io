@@ -1,16 +1,10 @@
-.row-header{
-    flex: 100%; 
-    flex-direction: column;
-    background-color: var(--color-gray-dark-2);     
+#header{
+    text-align: center;
+    margin: 60px 30px;
 }
 
 #header-left h1{
     color: #fbd214;
-    text-align: center; 
-}
-
-#nav-right ul{
-    text-align: left;
 }
 
 #nav-right ul li a{
@@ -23,9 +17,12 @@
     transition: all 0.3s;
 }
 
-#nav-right ul li a:hover, #nav-right ul li a.active{
+#nav-right ul li a:hover{
     color: var(--color-primary-dark);
-    border-bottom: 2px solid;
+}
+
+#nav-right ul li a.active{
+    color: var(--color-primary-dark);
 }
 
 
@@ -59,8 +56,12 @@
     #header-left h1{
         margin: 20px;
         text-align: left;
-    }
+    }   
     
+    #nav-right ul li a:hover, #nav-right ul li a.active{
+        color: var(--color-primary-dark);
+        border-bottom: 2px solid;
+    }
 }
 
 

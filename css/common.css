@@ -13,12 +13,26 @@ html, body{
     flex-wrap: wrap;
 }
 
+.row{
+    flex: 100%; 
+    flex-direction: column;
+    background-color: var(--color-gray-dark);
+}
+
+.bg{
+    background-color: var(--color-gray-dark-2);
+}
+
+.bg-gray{
+    background-color: var(--color-gray);
+}
+
 h1{
-    color: lightgray;
+    color: var(--color-gray-light);
 }
 
 h2{
-    color: #cccccc;
+    color: var(--color-gray-2);
     border-bottom: 2px solid;
     font-size: 25px;
     border-color: var(--color-primary-dark);
@@ -26,7 +40,7 @@ h2{
 }
 
 p{
-    color: #9f9f9f;
+    color: var(--color-gray-3);
 }
 
 ul{
@@ -38,13 +52,10 @@ ul{
 a{
     color: white;
     text-decoration: none;
-    transition: all 0.3s; 
- }
- a:hover{
-    color: var(--color-primary-dark);
- }
+}
 
-.btn-contacto{
+
+.btn-primary{
     display: block;
     padding: 20px;
     width: 250px;
@@ -59,13 +70,15 @@ a{
     font-family: "Poppins-Regular";
     color: var(--color-gray-dark);
 } 
-.btn-contacto:hover{
+.btn-primary:hover{
     border: 2px solid;
     border-color: var(--color-primary-dark);
     background-color: var(--color-gray-dark);
+    color: var(--color-primary-dark);
+    transition: all 0.3s;
 }
 
-.btn{
+.btn-outline{
     display: block;
     padding: 20px;
     width: 200px;
@@ -77,9 +90,10 @@ a{
     font-size: 16px;
     color: var(--color-primary-dark);
 }
-.btn:hover{
+.btn-outline:hover{
     color: black;
     background-color: var(--color-primary-dark);
+    transition: all 0.3s;
 }
 
 img{
