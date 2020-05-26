@@ -4,7 +4,6 @@
 }
 
 .caja{
-    /* display: block; */
     margin-bottom: 20px;
     
 }
@@ -50,30 +49,13 @@
     transition: all 0.5s;
     border-color: var(--color-gray-dark-2);
     cursor: pointer;  
-    transform: scale(1.14);
+    /* transform: scale(1.14); */
 }
 
 .pro4{
     margin-bottom: 60px;
 }
 
-/* #p2{
-    text-align: left;
-    font-size: 15px;
-} */
-/* .pro:hover #p2{
-    color: rgb(82, 81, 81);
-} */
-
-/* #p3{
-    
-    color: #ccc;
-    text-align: left;
-    font-size: 16px;
-} */
-/* .pro:hover #p3{
-    color: black;
-} */
 
 
 /* ----- MediaS ----- */

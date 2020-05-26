@@ -3,16 +3,6 @@
     margin: 80px 30px 20px 30px;
 }
 
-/* #footer h1{
-    margin: 0;
-    color: #fbd214;
-    text-transform: uppercase;
-} */
-
-/* #footer p{
-    margin: 0;
-} */
-
 .icon-footer{
     display: flex;
     margin: 30px 0;
@@ -51,8 +41,4 @@
         margin: 80px auto 20px auto;
     }
 
-    /* #footer p{
-        width: 600px;
-        margin: 0 auto;
-    } */
 }
